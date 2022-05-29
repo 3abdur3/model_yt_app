@@ -1,0 +1,10 @@
+.video-item {
+  display: flex !important;
+  align-items: center !important;
+  /* Here we used "!important" to override the default design from "sementic-ui.com" */
+  cursor: pointer;
+}
+
+.video-item.item img {
+  max-width: 18rem;
+}
